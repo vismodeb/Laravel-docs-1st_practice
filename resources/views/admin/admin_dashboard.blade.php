@@ -16,8 +16,8 @@
         <aside>
             <div class="toggle">
                 <div class="logo">
-                    <img src="assets/images/logo.png">
-                    <h2>Asmr<span class="danger">Prog</span></h2>
+                    <img src="{{ asset('assets/images/logo.png') }}">
+                    <h2>Vismo<span class="danger">Dev</span></h2>
                 </div>
                 <div class="close" id="close-btn">
                     <span class="material-icons-sharp">
@@ -113,11 +113,11 @@
 
                 <div class="profile">
                     <div class="info">
-                        <p>Hey, <b>Reza</b></p>
+                        <p>Hey, <b>Vismo</b></p>
                         <small class="text-muted">Admin</small>
                     </div>
                     <div class="profile-photo">
-                        <img src="assets/images/profile-1.jpg">
+                        <img src="{{ asset('assets/images/profile-2.jpg') }}">
                     </div>
                 </div>
 
@@ -126,8 +126,8 @@
 
             <div class="user-profile">
                 <div class="logo">
-                    <img src="assets/images/logo.png">
-                    <h2>AsmrProg</h2>
+                    <img src="{{ asset('assets/images/logo.png') }}">
+                    <h2>VismoDev</h2>
                     <p>Fullstack Web Developer</p>
                 </div>
             </div>
